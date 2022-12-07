@@ -2230,10 +2230,10 @@
     lodash.merge "^4.6.2"
     postcss-selector-parser "6.0.10"
 
-"@tinacms/app@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-1.0.0.tgz#62054e10056b645349743fb3a102b89706d0fa9a"
-  integrity sha512-awNlEud8RDYvZj7SAJOYjzEDmmcL7BtRaVKqPBRElS00GaqWjCKZzXF4XkeAgylZNeeVfKKFEIvSmeUpGUjcsQ==
+"@tinacms/app@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/app/-/app-1.0.2.tgz#7ad7210c9aa81cf3b63327f4d7446a3f14388efd"
+  integrity sha512-PDCjSGtialhBrUgmHDbi4jpI4cv3El6CO549OVmU0sqRlOn+Mg/SsNxHxD3L/JKZhEGC6GSjhU18ryk27NQJ3w==
   dependencies:
     "@headlessui/react" "1.6.6"
     "@heroicons/react" "1.0.6"
@@ -2261,10 +2261,10 @@
     webfontloader "1.6.28"
     xstate "4.32.1"
 
-"@tinacms/cli@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.0.1.tgz#6458bf607e43ede77fccd92a904378ad5da40d87"
-  integrity sha512-szNNkUu9SfzF38mmJQN8gpvM+0qZcQApupinCvcTC3SVwlP44Ffkuw4/EZP0xxuuKoiO+/Kz0leW67yRUr21Eg==
+"@tinacms/cli@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tinacms/cli/-/cli-1.0.3.tgz#5d850b69ea51d8c6c358d7d659c3854a45cf07ff"
+  integrity sha512-GIBukmgc7D37rrgsYFDFeQ5usn3284eT7w7wq9vG8DvDRYn0SnST5OPhsXK+0zr9k2Ig2P8aKjNARn9lQM4JhA==
   dependencies:
     "@graphql-codegen/core" "^2.1.0"
     "@graphql-codegen/plugin-helpers" latest
@@ -2274,11 +2274,11 @@
     "@graphql-codegen/visitor-plugin-common" "^2.4.0"
     "@graphql-tools/graphql-file-loader" "^7.2.0"
     "@graphql-tools/load" "^7.3.2"
-    "@tinacms/app" "1.0.0"
+    "@tinacms/app" "1.0.2"
     "@tinacms/datalayer" "1.0.0"
-    "@tinacms/graphql" "1.0.1"
+    "@tinacms/graphql" "1.0.2"
     "@tinacms/metrics" "1.0.0"
-    "@tinacms/schema-tools" "1.0.1"
+    "@tinacms/schema-tools" "1.0.2"
     add "^2.0.6"
     ajv "^6.12.3"
     altair-express-middleware "4.0.6"
@@ -2335,15 +2335,15 @@
     prettier "^2.2.1"
     yup "^0.32.9"
 
-"@tinacms/graphql@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-1.0.1.tgz#438e5f914d12e8b68d1c205de17a22d064c3392d"
-  integrity sha512-ZeRZFNKd0IHGY7RmknI3+au8p2VTeewEONez50WFbetcC9MV279O6kGXXoSpXX2WkkP3sRl1KWl+StdxXYQ4LA==
+"@tinacms/graphql@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/graphql/-/graphql-1.0.2.tgz#a254d4d950c8396b86635042b19f628b96e6b0dc"
+  integrity sha512-461eP6GeHVkK/EsFqlkrkt5Qwf11p70d+m70KkhsKt4uKBuI1GMP6yzvQcsdVeZ7AdSuA5GTZ/q6fCVqoy3RtQ==
   dependencies:
     "@graphql-tools/relay-operation-optimizer" "^6.4.1"
     "@tinacms/datalayer" "1.0.0"
-    "@tinacms/mdx" "1.0.1"
-    "@tinacms/schema-tools" "1.0.1"
+    "@tinacms/mdx" "1.0.2"
+    "@tinacms/schema-tools" "1.0.2"
     body-parser "^1.19.0"
     cors "^2.8.5"
     dataloader "^2.0.0"
@@ -2385,12 +2385,12 @@
     ws "^7.3.1"
     yup "^0.32.9"
 
-"@tinacms/mdx@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@tinacms/mdx/-/mdx-1.0.1.tgz#80d3fb2f707b5e49ed112d7d81b8a74be1f6112a"
-  integrity sha512-gE+oTg6FvD/bGOcKhJ732xMXSpSbMkJSS0Dl/4F1amkTOkyEo70NSPeSzSmpUpDd/PdK869anESoOiKQ/vdSTw==
+"@tinacms/mdx@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/mdx/-/mdx-1.0.2.tgz#3601c7cf550db7617c5753237ea752ff6895e60b"
+  integrity sha512-VJlbPhv2g3Uxsa/Z7P2q8uX8bjT4SbFwcIDDsgCiNpTFUcEFgVClG3DFtGTfI/GSSK9R8G8cHG/qv2Ds7B8ifg==
   dependencies:
-    "@tinacms/schema-tools" "1.0.1"
+    "@tinacms/schema-tools" "1.0.2"
     acorn "^8.7.1"
     lodash-es "^4.17.21"
     mdast-util-mdx-jsx "^2.0.1"
@@ -2412,6 +2412,13 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-1.0.1.tgz#d0fb871621634476d36a767fe4aba90792cacf5f"
   integrity sha512-GzH6P3eCPNITfs//7n9SV13MzplLnRhldAUSyF766p1tDoUcS58E4xojJt/kID6zxl2hY2VtOzwE9i9cNdkQ4g==
+  dependencies:
+    zod "^3.14.3"
+
+"@tinacms/schema-tools@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinacms/schema-tools/-/schema-tools-1.0.2.tgz#5955a6891a530b0292747df4495a02e13ee77db7"
+  integrity sha512-jxPHuSQkzWk3nj0y81d10H0DB0BEA5jnYVgSm4J38Zidw43msOB/ck70xNxvu3y5eyMRNmzVYj+ckDgSiStFMg==
   dependencies:
     zod "^3.14.3"
 
